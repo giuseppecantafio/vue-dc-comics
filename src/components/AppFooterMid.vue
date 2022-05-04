@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import {data} from "./components/AppHeader.vue";
+import {navElm} from "./components/AppHeader.vue";
 
 export default {
   name: "AppFooterMid",
   components: {
-      data
+      navElm
   },
   data() {
     return {
