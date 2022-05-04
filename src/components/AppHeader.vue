@@ -82,14 +82,14 @@ export default {
 <style scoped lang="scss">
 @import "../style/variables";
 header {
-  background-color: $bg-header;
+  background-color: $light-color;
   height: 100px;
   width: 80%;
   margin: 0 auto;
 
-  nav {
+  nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 200px;
   }
   .img-container{
@@ -115,7 +115,7 @@ header {
   }
   .selected {
     color: $color-header-selected;
-    border-bottom: 2px solid $color-header-selected;
+    border-bottom: 3px solid $color-header-selected;
   }
 }
 </style>
