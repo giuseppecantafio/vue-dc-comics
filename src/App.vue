@@ -22,9 +22,8 @@ export default {
     AppFooterMid,
   },
   data() {
-    return {
-    }
-  }
+    return {};
+  },
 };
 </script>
 
