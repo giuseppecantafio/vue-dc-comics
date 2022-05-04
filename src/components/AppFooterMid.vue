@@ -4,7 +4,7 @@
           <div class="footer-mid-wrapper debug">
               <div class="fm-left debug">
                   <ul>
-                      <li v-for="(item, index) in navElm" :key="index">{{item.name}}</li>
+                      <li></li>
                   </ul>
               </div>
               <div class="fm-right debug">
@@ -16,13 +16,9 @@
 </template>
 
 <script>
-import {navElm} from "./components/AppHeader.vue";
 
 export default {
   name: "AppFooterMid",
-  components: {
-      navElm
-  },
   data() {
     return {
     };

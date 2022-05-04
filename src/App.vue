@@ -21,6 +21,10 @@ export default {
     AppFooterTop,
     AppFooterMid,
   },
+  data() {
+    return {
+    }
+  }
 };
 </script>
 

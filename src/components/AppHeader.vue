@@ -78,6 +78,9 @@ export default {
       ],
     };
   },
+  props: {
+    myArr: Array,
+  }
 };
 </script>
 
