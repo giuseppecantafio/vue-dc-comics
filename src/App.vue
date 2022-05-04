@@ -22,4 +22,5 @@ export default {
 .debug{
   border: 1px solid black;
 }
+
 </style>
