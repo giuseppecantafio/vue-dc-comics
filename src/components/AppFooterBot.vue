@@ -70,7 +70,7 @@ export default {
       height: 100%;
       display: flex;
       align-items: center;
-      gap: 40px;
+      gap: 20px;
     }
     .fb-right {
       justify-content: flex-end;
