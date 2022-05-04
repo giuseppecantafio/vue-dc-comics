@@ -2,7 +2,9 @@
   <div>
     <header>
       <nav>
-        <div class="img-container"><img src="../assets/img/dc-logo.png" alt="dc logo" /></div>
+        <div class="img-container">
+          <img src="../assets/img/dc-logo.png" alt="dc logo" />
+        </div>
         <ul>
           <li
             v-for="(item, index) in navElm"
@@ -81,37 +83,32 @@ export default {
 
 <style scoped lang="scss">
 @import "../style/variables";
+@import "../style/generals";
 header {
   background-color: $light-color;
   height: 100px;
   width: 80%;
   margin: 0 auto;
 
-  nav{
+  nav {
     display: flex;
     justify-content: space-between;
     gap: 200px;
   }
-  .img-container{
+  .img-container {
     height: 80px;
     margin-top: 10px;
   }
-  img{
+  img {
+    @include img-fit;
     padding-right: 200px;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
   }
   ul {
-    list-style-type: none;
-    line-height: 100px;
-    vertical-align: middle;
-    display: flex;
-    flex-wrap: wrap;
+    @include inline-ul;
     gap: 10px;
   }
   li {
-    display: inline-block;
+    @include inline-li;
   }
   .selected {
     color: $color-header-selected;

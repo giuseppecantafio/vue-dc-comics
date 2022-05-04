@@ -1,29 +1,31 @@
 <template>
   <div id="app">
-    <AppHeader/>
-    <AppMain/>
+    <AppHeader />
+    <AppMain />
+    <AppFooterTop />
   </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue'
-import AppMain from './components/AppMain.vue'
+import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
+import AppFooterTop from "./components/AppFooterTop.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     AppHeader,
-    AppMain
-  }
-}
+    AppMain,
+    AppFooterTop,
+  },
+};
 </script>
 
 <style lang="scss">
-@import './style/generals';
-@import './style/variables';
+@import "./style/generals";
+@import "./style/variables";
 
-.debug{
+.debug {
   border: 1px solid black;
 }
-
 </style>
