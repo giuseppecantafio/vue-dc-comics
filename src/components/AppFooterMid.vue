@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="footer-mid">
-      <div class="footer-mid-wrapper debug">
-        <div class="fm-left debug">
+      <div class="footer-mid-wrapper">
+        <div class="fm-left">
           <ul>
             <li></li>
           </ul>
         </div>
-        <div class="fm-right debug"></div>
+        <div class="fm-right"></div>
       </div>
     </div>
   </div>

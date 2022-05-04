@@ -4,6 +4,7 @@
     <AppMain />
     <AppFooterTop />
     <AppFooterMid />
+    <AppFooterBot />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooterTop from "./components/AppFooterTop.vue";
 import AppFooterMid from "./components/AppFooterMid.vue";
+import AppFooterBot from "./components/AppFooterBot.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     AppMain,
     AppFooterTop,
     AppFooterMid,
+    AppFooterBot
   },
   data() {
     return {};
