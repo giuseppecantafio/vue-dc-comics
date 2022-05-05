@@ -22,6 +22,14 @@
   height: 100%;
   object-fit: contain;
 }
+@mixin jb-main-buttons {
+  padding: 10px 50px;
+    font-weight: 600;
+    background-color: $bg-main-jb-buttons;
+    margin: 2px;
+    text-transform: uppercase;
+    color: white;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
