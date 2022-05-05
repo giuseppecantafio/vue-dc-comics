@@ -3,8 +3,12 @@
     <main>
       <div class="main-wrapper">
         <div class="boxes" v-for="(card, index) in cards" :key="index">
-          <div class="img-wrapper"><img :src="`${card.thumb}`" :alt="`${card.series}`"></div>
-          <div class="text-container"><span>{{card.series}}</span></div>
+          <div class="img-wrapper">
+            <img :src="`${card.thumb}`" :alt="`${card.series}`" />
+          </div>
+          <div class="text-container">
+            <span>{{ card.series }}</span>
+          </div>
         </div>
       </div>
       <div class="button-container">
@@ -104,9 +108,9 @@ export default {
           series: "Catwoman",
           type: "graphic novel",
         },
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -126,34 +130,33 @@ main {
     width: 80%;
     margin: 0 auto;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
   }
-  .boxes{
+  .boxes {
     width: calc(100% / 6);
   }
-  .img-wrapper{
+  .img-wrapper {
     height: 180px;
     width: 180px;
   }
-  img{
+  img {
     object-fit: cover;
     height: 100%;
     width: 100%;
   }
-  .text-container{
+  .text-container {
     padding-top: 15px;
     height: 20px;
   }
-  span{
+  span {
     font-size: 0.8rem;
     color: white;
     text-transform: uppercase;
   }
 }
-.button-container{
+.button-container {
   height: 80px;
   padding-top: 30px;
   width: 100%;

@@ -19,7 +19,7 @@ export default {
 @import "../style/variables";
 @import "../style/generals";
 
-.jumbotron{
+.jumbotron {
   margin-top: 3px;
   background-image: url("../assets/img/jumbotron.jpg");
   background-repeat: no-repeat;
@@ -29,12 +29,12 @@ export default {
   position: relative;
 
   .button {
-  @include jb-main-buttons;
-  height: 50px;
-  font-size: 1.5rem;
-  position: absolute;
-  bottom: -25px;
-  left: 155px;
+    @include jb-main-buttons;
+    height: 50px;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -25px;
+    left: 155px;
   }
 }
 </style>
