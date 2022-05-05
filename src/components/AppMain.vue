@@ -20,7 +20,6 @@ export default {
 <style scoped lang="scss">
 @import "../style/variables";
 main {
-  margin-top: 3px;
   height: 150px;
   background-color: $bg-main;
   width: 100%;
